@@ -1,0 +1,25 @@
+{
+  "name": "GWP Barcelona 2026",
+  "short_name": "GWP Barcelona",
+  "description": "GWP info, planning en meer.",
+  "start_url": "https://hakaishjin.github.io/see/",
+  "display": "standalone",
+  "theme_color": "#6B21A8",
+  "background_color": "#1E0533",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["education", "travel"]
+}

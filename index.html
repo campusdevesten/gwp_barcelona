@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#6B21A8" />
+  <meta name="description" content="GWP - Naar Barcelona!" />
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <title>GWP Barcelona 🇪🇸</title>
+</head>
+<body>
+
+<!-- ─── NAV ─── -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <!-- ✏️ EDIT: Replace src with your school logo path e.g. src="logo.png" -->
+    <a href="#hero" class="logo">
+      <img src="icons/school-logo.png" alt="Schoollogo" class="school-logo" onerror="this.style.display='none';this.nextElementSibling.style.display='inline'">
+      <span style="display:none">GWP <span style="color:var(--clr-accent)">2026</span></span>
+    </a>
+    <button class="hamburger" aria-label="Menu" onclick="toggleMenu()">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#itinerary" onclick="closeMenu()">Planning</a></li>
+      <li><a href="#map"       onclick="closeMenu()">Kaart</a></li>
+      <li><a href="#transport" onclick="closeMenu()">Transport</a></li>
+      <li><a href="#hotel"     onclick="closeMenu()">Hotel</a></li>
+      <li><a href="#spanish"   onclick="closeMenu()">Spaans</a></li>
+      <li><a href="#contacts"  onclick="closeMenu()">Contact</a></li>
+      <li><a href="#credits"   onclick="closeMenu()">Credits</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ─── HERO ─── -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-label">GWP</p>
+    <h1>Barcelona</h1>
+    <p class="hero-dates">27 maart – 3 april, 2026</p>
+    <p class="hero-sub">7 dagen · 8 leerlingen · 1 avontuur</p>
+    <a href="#itinerary" class="btn-hero">Ontdek de planning</a>
+  </div>
+  <div class="hero-scroll-hint">▼</div>
+</section>
+
+<!-- ─── ITINERARY ─── -->
+<section id="itinerary">
+  <div class="section-header">
+    <h2>Dag-per-dag</h2>
+    <p>Klik op een dag voor meer details</p>
+  </div>
+  <div class="days-grid" id="daysGrid"></div>
+</section>
+
+<!-- ─── MAP ─── -->
+<section id="map">
+  <div class="section-header">
+    <h2>Kaart</h2>
+    <p>Alle locaties — klik op een bolletje voor info en Google Maps link</p>
+  </div>
+  <div class="map-wrapper">
+    <div id="mapContainer"></div>
+    <div class="map-legend">
+      <div class="legend-item"><span class="dot dot-hotel"></span> Hotel</div>
+      <div class="legend-item"><span class="dot dot-activity"></span> Activiteiten</div>
+      <div class="legend-item"><span class="dot dot-transport"></span> Transport</div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── TRANSPORT ─── -->
+<section id="transport">
+  <div class="section-header">
+    <h2>Transport & Metro</h2>
+    <p>Metro's die we gaan nemen. Voor als je iets gemist hebt.</p>
+  </div>
+  <div class="transport-grid">
+    <div class="transport-card">
+      <div class="transport-icon">🚆</div>
+      <h3>Zondag 29 maart</h3>
+      <table class="schedule-table">
+        <tr><td>Doel</td><td class="val">Plaza Cataluña</td></tr>
+        <tr><td>1. Metro station</td><td class="val">Sant Pau - Dos de Maig</td></tr>
+        <tr><td>2. Metrolijn</td><td class="val">L5 - Blauwe lijn</td></tr>
+        <tr><td>3. Metro station (2 stops)</td><td class="val">Diagonal</td></tr>
+        <tr><td>4. Metrolijn</td><td class="val">L3 - Groene lijn</td></tr>
+        <tr><td>5. Aankomst (1 stop)</td><td class="val">Plaza Cataluña</td></tr>
+      </table>
+    </div>
+    <div class="transport-card">
+      <div class="transport-icon">🚆</div>
+      <h3>Zondag 29 maart</h3>
+      <table class="schedule-table">
+        <tr><td>Doel</td><td class="val">Plaza Espagña</td></tr>
+        <tr><td>Info</td><td class="val">Geen extra info ontvangen</td></tr>
+      </table>
+    </div>
+    <div class="transport-card">
+      <div class="transport-icon">🚇</div>
+      <h3>Maandag 30 maart</h3>
+      <table class="schedule-table">
+        <tr><td>Doel</td><td class="val">Park Güell</td></tr>
+        <tr><td>1. Metrostation</td><td class="val">Plaza Cataluña</td></tr>
+        <tr><td>2. Metrolijn</td><td class="val">L3 - Groene Lijn</td></tr>
+        <tr><td>3. Aankomst (4 stops)</td><td class="val">Vallcarca</td></tr>
+      </table>
+    </div>
+    <div class="transport-card">
+      <div class="transport-icon">🚌</div>
+      <h3>Dinsdag 31 maart</h3>
+      <table class="schedule-table">
+        <tr><td>Doel</td><td class="val">Maremagnum</td></tr>
+        <tr><td>1. Metro station</td><td class="val">Palau Reial</td></tr>
+        <tr><td>2. Metrolijn</td><td class="val">L3 - Groene lijn</td></tr>
+        <tr><td>3. Aankomst (8 stops)</td><td class="val">Drassanes</td></tr>
+      </table>
+    </div>
+    <div class="transport-card">
+      <div class="transport-icon">🚇</div>
+      <h3>Donderdag 2 april</h3>
+      <table class="schedule-table">
+        <tr><td>Doel</td><td class="val">Funicular de Montjuïc</td></tr>
+        <tr><td>1. Metro station</td><td class="val">Plaza Cataluña</td></tr>
+        <tr><td>2. Metrolijn</td><td class="val">L3 - Groene Lijn</td></tr>
+        <tr><td>3. Metro station (2 stops)</td><td class="val">Paral·lel</td></tr>
+        <tr><td>4. Metrolijn</td><td class="val">Info volgt nog</td></tr>
+        <tr><td>5. Aankomst</td><td class="val">Funicular de Montjuïc</td></tr>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ─── HOTEL ─── -->
+<section id="hotel">
+  <div class="section-header">
+    <h2>Hotel Aquamarina & Spa</h2>
+  </div>
+  <div class="hotel-card">
+    <div class="hotel-image-placeholder">
+      <img src="https://objectstore.true.nl/prijsvrij:accommodations/626x416/95MH4WD6U4S43GUY76JDQ50I0IK1V9ZXMJN7BUZD.jpg" alt="Hotel Aquamarina" style="width:100%;height:100%;object-fit:cover">
+    </div>
+    <div class="hotel-details">
+      <h3 class="hotel-name">Hotel Aquamarina & Spa</h3>
+      <p class="hotel-address">📍 Carrer del Pla de la Torre, 24, 08398 Santa Susanna, Barcelona</p>
+      <p class="hotel-stars">⭐⭐⭐⭐</p>
+      <div class="hotel-info-grid">
+        <div><strong>Website</strong><span><a href="https://www.aquahotel.com/en/hotels/santa-susanna/aquamarina/hotel/" target="_blank">Klik hier</a></span></div>
+        <div><strong>Kamers</strong><span>3-persoonskamers</span></div>
+        <div><strong>Ontbijt</strong><span>Buffet</span></div>
+        <div><strong>Avondmaal</strong><span>Buffet</span></div>
+        <div><strong>Ontspanning</strong><span>Zwembad, gym...</span></div>
+      </div>
+      <a href="https://maps.google.com/?q=Hotel+Aquamarina+Spa+Santa+Susanna" target="_blank" class="btn-maps">📍 Open in Google Maps</a>
+      <p class="hotel-note">Het ziet er cool uit denk ik.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SPANISH PHRASES ─── -->
+<section id="spanish">
+  <div class="section-header">
+    <h2>🇪🇸 Basis Spaans</h2>
+    <p>Klik op een zin om hem te horen uitgesproken · Handig als je vastzit!</p>
+  </div>
+  <div class="spanish-container" id="spanishContainer">
+    <!-- Injected by JS — edit the spanishPhrases array in script.js -->
+  </div>
+</section>
+
+<!-- ─── CONTACTS ─── -->
+<section id="contacts">
+  <div class="section-header">
+    <h2>📞 Contacten</h2>
+    <p>Belangrijke nummers — klik op een nummer om te bellen</p>
+  </div>
+  <div class="contacts-grid" id="contactsGrid">
+    <!-- Injected by JS — edit the contacts array in script.js -->
+  </div>
+</section>
+
+<!-- ─── CREDITS ─── -->
+<section id="credits">
+  <div class="section-header">
+    <h2>The Crew</h2>
+    <p>De mensen waardoor dit mogelijk is.</p>
+  </div>
+  <div class="credits-grid" id="creditsGrid"></div>
+  <p class="credits-footer">© 2026 GWP Barcelona — Made with ❤️ door Ruben Gautam</p>
+</section>
+
+<!-- ─── INSTALL BANNER (PWA) ─── -->
+<div id="installBanner" class="install-banner hidden">
+  <p>📱 Download dit voor offline gebruik!</p>
+  <button id="installBtn" class="btn-install">Installeer</button>
+  <button class="btn-dismiss" onclick="document.getElementById('installBanner').classList.add('hidden')">✕</button>
+</div>
+
+<!-- ─── SCRIPTS ─── -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="script.js"></script>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
+</body>
+</html>
