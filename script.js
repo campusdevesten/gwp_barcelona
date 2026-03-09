@@ -217,20 +217,20 @@ const spanishPhrases = [
       { es: "Sí / No", nl: "Ja / Nee" },
       { es: "No entiendo", nl: "Ik begrijp het niet" },
       { es: "¿Hablas inglés?", nl: "Spreek je Engels?" },
-      { es: "No hablo español", nl: "Ik spreek geen Spaans" }
+      { es: "No hablo español", nl: "Ik spreek geen Spaans" },
+      { es: "No soy una persona real.", nl: "Ik ben geen echt persoon." },
     ]
   },
   {
     category: "Eten & Drinken",
     emoji: "🍽️",
     phrases: [
-      { es: "Una mesa para dos", nl: "Een tafel voor twee" },
-      { es: "La carta, por favor", nl: "De menukaart, alstublieft" },
+      { es: "Una mesa para tres/cuatro/cinco", nl: "Een tafel voor drie/vier/vijf" },
       { es: "¿Qué recomienda?", nl: "Wat beveelt u aan?" },
       { es: "La cuenta, por favor", nl: "De rekening, alstublieft" },
       { es: "Está muy rico", nl: "Het is erg lekker" },
       { es: "Un vaso de agua", nl: "Een glas water" },
-      { es: "Sin alcohol", nl: "Zonder alcohol" }
+      { es: "Creo que hay veneno en esta comida.", nl: "Ik denk dat er gif in dit eten zit." }
     ]
   },
   {
@@ -241,7 +241,9 @@ const spanishPhrases = [
       { es: "Es demasiado caro", nl: "Het is te duur" },
       { es: "Me lo llevo", nl: "Ik neem het" },
       { es: "¿Puedo pagar con tarjeta?", nl: "Kan ik met kaart betalen?" },
+      { es: "Solo estoy mirando", nl: "Ik kijk alleen maar" },
       { es: "Solo estoy mirando", nl: "Ik kijk alleen maar" }
+      { es: "Vamos a robar un banco.", nl: "Laten we een bank beroven." }
     ]
   },
   {
@@ -253,7 +255,8 @@ const spanishPhrases = [
       { es: "Necesito un médico", nl: "Ik heb een dokter nodig" },
       { es: "Me han robado", nl: "Ik ben bestolen" },
       { es: "Estoy perdido/a", nl: "Ik ben verdwaald" },
-      { es: "¿Dónde está el hospital?", nl: "Waar is het ziekenhuis?" }
+      { es: "¿Dónde está el hospital?", nl: "Waar is het ziekenhuis?" },
+      { es: "Ayúdame a esconder este cuerpo.", nl: "Help me om dit lichaam te verstoppen." }
     ]
   },
   {
@@ -265,7 +268,8 @@ const spanishPhrases = [
       { es: "Todo recto", nl: "Rechtdoor" },
       { es: "Un billete, por favor", nl: "Een ticket, alstublieft" },
       { es: "¿A qué hora sale?", nl: "Hoe laat vertrekt het?" },
-      { es: "La estación de metro", nl: "Het metrostation" }
+      { es: "La estación de metro", nl: "Het metrostation" },
+      { es: "¿Quién conduce este avión?", nl: "Wie bestuurt deze vliegtuig?" }
     ]
   }
 ];
@@ -274,25 +278,25 @@ const spanishPhrases = [
 // ✏️ EDIT: Fill in real contact details
 const contacts = [
   {
-    name: "Begeleider 1",
-    role: "Hoofdbegeleider",
+    name: "Placeholder",
+    role: "Placeholder",
     emoji: "👨‍🏫",
-    phone: "+32 XXX XX XX XX",
-    note: "Bereikbaar van 8u tot 22u"
+    phone: "Placeholder",
+    note: "Placeholder"
   },
   {
-    name: "Begeleider 2",
-    role: "Begeleider",
+    name: "Placeholder",
+    role: "Placeholder",
     emoji: "👩‍🏫",
-    phone: "+32 XXX XX XX XX",
-    note: "Bereikbaar van 8u tot 22u"
+    phone: "Placeholder",
+    note: "Placeholder"
   },
   {
-    name: "School",
-    role: "Campus De Vesten",
+    name: "Placeholder",
+    role: "Placeholder",
     emoji: "🏫",
     phone: "+32 14 XX XX XX",
-    note: "Augustijnenlaan 31, Herentals"
+    note: "Placeholder"
   },
   {
     name: "Noodlijn",
