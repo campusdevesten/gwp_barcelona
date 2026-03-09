@@ -8,15 +8,15 @@
   "background_color": "#1E0533",
   "icons": [
     {
-      "src": "icons/icon-192.jpg",
+      "src": "icons/icon-192.png",
       "sizes": "416x416",
-      "type": "image/jpg",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "icons/icon-512.jpg",
+      "src": "icons/icon-512.png",
       "sizes": "485x485",
-      "type": "image/jpg",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ],
