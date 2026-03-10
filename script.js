@@ -314,7 +314,7 @@ const contacts = [
 const crew = [
   { name: "Ruben",  emoji: "🌟", role: "Web design lead",  bio: "Eigenlijk alles dat je hier ziet is van mij" },
   { name: "Axel",   emoji: "🎨", role: "Morale support",   bio: "Idk" },
-  { name: "Lowie",  emoji: "📍", role: "Algemeen Directeur",       bio: "Whatever the heck dat betekent." }
+  { name: "Lowie",  emoji: "🍟", role: "Algemeen Directeur",       bio: "Whatever the heck dat betekent." }
 ];
 
 
