@@ -274,25 +274,18 @@ const spanishPhrases = [
 // ✏️ EDIT: Fill in real contact details
 const contacts = [
   {
-    name: "Placeholder",
-    role: "Placeholder",
-    emoji: "👨‍🏫",
-    phone: "Placeholder",
-    note: "Placeholder"
-  },
-  {
-    name: "Placeholder",
-    role: "Placeholder",
-    emoji: "👩‍🏫",
-    phone: "Placeholder",
-    note: "Placeholder"
-  },
-  {
-    name: "Placeholder",
-    role: "Placeholder",
+    name: "Campus De Vesten",
+    role: "De school",
     emoji: "🏫",
-    phone: "+32 14 XX XX XX",
-    note: "Placeholder"
+    phone: "+32 93 767 80 60",
+    note: ""
+  },
+  {
+    name: "Whatsappgroep",
+    role: "",
+    emoji: "👨‍🏫",
+    phone: "",
+    note: "Kan je altijd gebruiken om de leerkrachten te bereiken"
   },
   {
     name: "Noodlijn",
@@ -305,7 +298,7 @@ const contacts = [
     name: "Hotel Aquamarina",
     role: "Ons hotel in Barcelona",
     emoji: "🏨",
-    phone: "+34 93 767 60 00",
+    phone: "+34 93 767 60",
     note: "Carrer del Pla de la Torre 24, Santa Susanna"
   }
 ];
