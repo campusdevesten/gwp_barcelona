@@ -190,14 +190,6 @@ const mapPins = [
     desc: "Stadion van FC Barcelona.",
     info: "Het grootste voetbalstadion van Europa met meer dan 99.000 plaatsen. Het FC Barcelona Museum is een van de best bezochte musea van Spanje.",
     mapsUrl: "https://maps.google.com/?q=Camp+Nou+Barcelona"
-  },
-  {
-    lat: 41.3787, lng: 2.1772,
-    type: "transport",
-    label: "Station Barcelona-Sants",
-    desc: "Hoofdstation van Barcelona.",
-    info: "Het grootste treinstation van Barcelona. Van hier vertrekken treinen naar Madrid, Valencia, Parijs en andere Europese steden.",
-    mapsUrl: "https://maps.google.com/?q=Barcelona+Sants+Station"
   }
 ];
 
