@@ -93,7 +93,7 @@ const days = [
       { time: "",       text: "<strong>Check-out</strong> — Bagage verzamelen in bagageruimte" },
       { time: "~10:00", text: "<strong>Trein</strong> — Zie transport" },
       { time: "~13:00", text: "<strong>Lunch</strong> — Vrije tijd" },
-      { time: "~16:30", text: "<strong>Trein</strong> — Door de klant geregeld" },
+      { time: "~16:30", text: "<strong>Trein</strong> — Door de klant geregeld (whatever the heck dit betekent)" },
       { time: "~19:30", text: "<strong>Avondmaal</strong> — In het hotel" },
       { time: "20:00",  text: "<strong>Voorbereiding vertrek</strong> — Verzamelen en inladen bus" },
       { time: "~20:30", text: "<strong>Vertrek</strong> — Terug naar Herentals" }
