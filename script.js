@@ -194,7 +194,6 @@ const mapPins = [
 ];
 
 // ─── 3. SPANISH PHRASES ─────────────────────────────────────
-// ✏️ EDIT: Add or remove phrases as needed
 const spanishPhrases = [
   {
     category: "Basis",
@@ -263,13 +262,12 @@ const spanishPhrases = [
 ];
 
 // ─── 4. CONTACT INFO ────────────────────────────────────────
-// ✏️ EDIT: Fill in real contact details
 const contacts = [
   {
     name: "Campus De Vesten",
     role: "De school",
     emoji: "🏫",
-    phone: "+32 93 767 80 60",
+    phone: "+32 14 21 11 44",
     note: ""
   },
   {
@@ -290,7 +288,7 @@ const contacts = [
     name: "Hotel Aquamarina",
     role: "Ons hotel in Barcelona",
     emoji: "🏨",
-    phone: "+34 93 767 60",
+    phone: "+34 93 767 80 60",
     note: "Carrer del Pla de la Torre 24, Santa Susanna"
   }
 ];
