@@ -331,7 +331,7 @@ const contacts = [
 
 // ─── 5. CREDITS / CREW ──────────────────────────────────────
 const crew = [
-  { name: "Ruben Gautam",  emoji: "🌟", role: "Web design lead",  bio: "Eigenlijk alles dat je hier ziet is van mij" },
+  { name: "Ruben Gautam",  emoji: "🌟", role: "Web design en development",  bio: "Eigenlijk alles dat je hier ziet is van mij" },
   { name: "Axel Van Dijck",   emoji: "🚲", role: "Boss",   bio: "He owns the place." },
   { name: "Lowie Sterckx",  emoji: "🍟", role: "Algemeen Directeur",       bio: "Whatever the heck dat betekent." }
 ];
