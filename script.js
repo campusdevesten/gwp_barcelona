@@ -203,7 +203,8 @@ const spanishPhrases = [
       { es: "Buenos días", nl: "Goedemorgen" },
       { es: "Buenas tardes", nl: "Goedemiddag" },
       { es: "Buenas noches", nl: "Goedenacht" },
-      { es: "¡Hasta luego!", nl: "Tot ziens!" }
+      { es: "¡Hasta luego!", nl: "Tot ziens!" },
+      { es: "Te conozco de una vida pasada.", nl: "Ik ken jou van een vorig leven" }
     ]
   },
   {
