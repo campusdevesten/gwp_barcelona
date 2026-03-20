@@ -195,18 +195,30 @@ const mapPins = [
 
 // ─── 3. SPANISH PHRASES ─────────────────────────────────────
 const spanishPhrases = [
-  {
-    category: "Basis",
+   {
+    category: "Begroetingen",
     emoji: "👋",
     phrases: [
-      { es: "Hola", nl: "Hallo" },
-      { es: "Gracias", nl: "Dankuwel" },
+      { es: "Hola, ¿qué tal?", nl: "Hallo, hoe gaat het?" },
+      { es: "Buenos días", nl: "Goedemorgen" },
+      { es: "Buenas tardes", nl: "Goedemiddag" },
+      { es: "Buenas noches", nl: "Goedenacht" },
+      { es: "¡Hasta luego!", nl: "Tot ziens!" }
+    ]
+  },
+  {
+    category: "Basis",
+    emoji: "💬",
+    phrases: [
+      { es: "Muy bien, gracias", nl: "Heel goed, bedankt" },
       { es: "Por favor", nl: "Alstublieft" },
       { es: "De nada", nl: "Graag gedaan" },
       { es: "Lo siento", nl: "Sorry" },
       { es: "Perdona", nl: "Excuseer me" },
       { es: "Sí / No", nl: "Ja / Nee" },
       { es: "No entiendo", nl: "Ik begrijp het niet" },
+      { es: "¿Puede repetirlo?", nl: "Kunt u dat herhalen?" },
+      { es: "¿Qué significa...?", nl: "Wat betekent...?" },
       { es: "¿Hablas inglés?", nl: "Spreek je Engels?" },
       { es: "No hablo español", nl: "Ik spreek geen Spaans" },
       { es: "No soy una persona real.", nl: "Ik ben geen echt persoon." }
@@ -228,11 +240,10 @@ const spanishPhrases = [
     category: "Winkelen",
     emoji: "🛍️",
     phrases: [
-      { es: "¿Cuánto cuesta?", nl: "Hoeveel kost het?" },
+      { es: "¿Cuánto cuesta eso?", nl: "Hoeveel kost het?" },
       { es: "Es demasiado caro", nl: "Het is te duur" },
       { es: "Me lo llevo", nl: "Ik neem het" },
       { es: "¿Puedo pagar con tarjeta?", nl: "Kan ik met kaart betalen?" },
-      { es: "Solo estoy mirando", nl: "Ik kijk alleen maar" },
       { es: "Solo estoy mirando", nl: "Ik kijk alleen maar" },
       { es: "Vamos a robar un banco.", nl: "Laten we een bank beroven." }
     ]
@@ -242,9 +253,11 @@ const spanishPhrases = [
     emoji: "🚨",
     phrases: [
       { es: "¡Ayuda!", nl: "Help!" },
+      { es: "¿Puede ayudarme?", nl: "Kunt u me helpen?" },
       { es: "Llama a la policía", nl: "Bel de politie" },
       { es: "Me han robado", nl: "Ik ben bestolen" },
       { es: "Estoy perdido/a", nl: "Ik ben verdwaald" },
+      { es: "¿Dónde está el baño?", nl: "Waar is het toilet?" },
       { es: "Ayúdame a esconder este cuerpo.", nl: "Help me om dit lichaam te verstoppen." }
     ]
   },
@@ -253,12 +266,35 @@ const spanishPhrases = [
     emoji: "🚇",
     phrases: [
       { es: "¿Dónde está...?", nl: "Waar is...?" },
-      { es: "A la derecha / izquierda", nl: "Rechts / Links" },
+      { es: "A la derecha / A la izquierda", nl: "Rechts / Links" },
       { es: "Todo recto", nl: "Rechtdoor" },
       { es: "La estación de metro", nl: "Het metrostation" },
-      { es: "¿Quién conduce este avión?", nl: "Wie bestuurt deze vliegtuig?" }
+      { es: "¿Quién conduce este avión?", nl: "Wie bestuurt dit vliegtuig?" }
     ]
-  }
+  },
+  {
+    category: "Vraagwoorden???",
+    emoji: "❓",
+    phrases: [
+      { es: "Quién?", nl: "Wie?" },
+      { es: "Cuándo?", nl: "Wat?" },
+      { es: "Qué?", nl: "Waar" },
+      { es: "Dónde?", nl: "Wanneer?" }    
+    ]
+  },
+  {
+  category: "Vervoegingen van zijn (😭?)",
+    emoji: "🐢",
+    phrases: [
+      { es: "Ser", nl: "Zijn" },
+      { es: "Yo soy", nl: "Ik ben" },
+      { es: "Tú eres", nl: "Jij bent" },
+      { es: "Él es", nl: "Hij/zij is" },
+      { es: "Nosotros somos", nl: "Wij zijn" },
+      { es: "Vosotros sois", nl: "Jullie zijn" },
+      { es: "Ellos son", nl: "Ze zijn" }
+    ]
+  },
 ];
 
 // ─── 4. CONTACT INFO ────────────────────────────────────────
@@ -295,9 +331,9 @@ const contacts = [
 
 // ─── 5. CREDITS / CREW ──────────────────────────────────────
 const crew = [
-  { name: "Ruben",  emoji: "🌟", role: "Web design lead",  bio: "Eigenlijk alles dat je hier ziet is van mij" },
-  { name: "Axel",   emoji: "🚲", role: "Boss",   bio: "He owns the place." },
-  { name: "Lowie",  emoji: "🍟", role: "Algemeen Directeur",       bio: "Whatever the heck dat betekent." }
+  { name: "Ruben Gautam",  emoji: "🌟", role: "Web design lead",  bio: "Eigenlijk alles dat je hier ziet is van mij" },
+  { name: "Axel Van Dijck",   emoji: "🚲", role: "Boss",   bio: "He owns the place." },
+  { name: "Lowie Sterckx",  emoji: "🍟", role: "Algemeen Directeur",       bio: "Whatever the heck dat betekent." }
 ];
 
 
