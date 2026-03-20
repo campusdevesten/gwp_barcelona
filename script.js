@@ -215,7 +215,7 @@ const spanishPhrases = [
       { es: "De nada", nl: "Graag gedaan" },
       { es: "Lo siento", nl: "Sorry" },
       { es: "Perdona", nl: "Excuseer me" },
-      { es: "Sí / No", nl: "Ja / Nee" },
+      { es: "Claro / tal vez / no", nl: "Natuurlijk / misschien / nee" },
       { es: "No entiendo", nl: "Ik begrijp het niet" },
       { es: "¿Puede repetirlo?", nl: "Kunt u dat herhalen?" },
       { es: "¿Qué significa...?", nl: "Wat betekent...?" },
@@ -277,8 +277,8 @@ const spanishPhrases = [
     emoji: "❓",
     phrases: [
       { es: "Quién?", nl: "Wie?" },
-      { es: "Cuándo?", nl: "Wat?" },
-      { es: "Qué?", nl: "Waar" },
+      { es: "Qué?", nl: "Wat?" },
+      { es: "Cuándo?", nl: "Waar" },
       { es: "Dónde?", nl: "Wanneer?" }    
     ]
   },
