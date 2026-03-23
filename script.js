@@ -216,7 +216,7 @@ const spanishPhrases = [
       { es: "De nada", nl: "Graag gedaan" },
       { es: "Lo siento", nl: "Sorry" },
       { es: "Perdona", nl: "Excuseer me" },
-      { es: "Claro / tal vez / no", nl: "Natuurlijk / misschien / nee" },
+      { es: "Si / tal vez / no", nl: "ja / misschien / nee" },
       { es: "No entiendo", nl: "Ik begrijp het niet" },
       { es: "¿Puede repetirlo?", nl: "Kunt u dat herhalen?" },
       { es: "¿Qué significa...?", nl: "Wat betekent...?" },
@@ -272,30 +272,7 @@ const spanishPhrases = [
       { es: "La estación de metro", nl: "Het metrostation" },
       { es: "¿Quién conduce este avión?", nl: "Wie bestuurt dit vliegtuig?" }
     ]
-  },
-  {
-    category: "Vraagwoorden???",
-    emoji: "❓",
-    phrases: [
-      { es: "Quién?", nl: "Wie?" },
-      { es: "Qué?", nl: "Wat?" },
-      { es: "Cuándo?", nl: "Waar" },
-      { es: "Dónde?", nl: "Wanneer?" }    
-    ]
-  },
-  {
-  category: "Vervoegingen van zijn (😭?)",
-    emoji: "🐢",
-    phrases: [
-      { es: "Ser", nl: "Zijn" },
-      { es: "Yo soy", nl: "Ik ben" },
-      { es: "Tú eres", nl: "Jij bent" },
-      { es: "Él es", nl: "Hij/zij is" },
-      { es: "Nosotros somos", nl: "Wij zijn" },
-      { es: "Vosotros sois", nl: "Jullie zijn" },
-      { es: "Ellos son", nl: "Ze zijn" }
-    ]
-  },
+  }
 ];
 
 // ─── 4. CONTACT INFO ────────────────────────────────────────
