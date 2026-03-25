@@ -34,7 +34,7 @@ const days = [
     activities: [
       { time: "~8:00",  text: "<strong>Ontbijt</strong> :)" },
       { time: "~10:00", text: "<strong>Hospital de San Pau</strong>" },
-      { time: "~12:00", text: "<strong>Metro</strong> — Naar Plaza Cataluña (zie 'transport' voor meer info" },
+      { time: "~12:00", text: "<strong>Metro</strong> — Naar Plaza Cataluña (zie 'transport' voor meer info)" },
       { time: "~14:00", text: "<strong>Gotische wijk</strong> — Fotozoektocht, van Plaza Cataluña tot Plaza Reial" },
       { time: "~16:00", text: "<strong>Metro</strong> — Naar Plaza Espagña, vrije avondmaal" },
       { time: "~20:00", text: "<strong>Hotel</strong> — Terug naar het hotel" }
