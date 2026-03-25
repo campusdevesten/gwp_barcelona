@@ -11,7 +11,7 @@ const days = [
     date: "27 maart",
     activities: [
       { time: "~18:30", text: "<strong>Verzamelen</strong> — aan Campus De Vesten, Herentals, Augustijnenlaan 31" },
-      { time: "~19:30", text: "<strong>Vertrek</strong> — (⏱ ~13 uur) nachtrit naar Pont du Gard, Frankrijk" }
+      { time: "~19:00", text: "<strong>Vertrek</strong> — (⏱ ~13 uur) nachtrit naar Pont du Gard, Frankrijk" }
     ]
   },
   {
@@ -34,7 +34,7 @@ const days = [
     activities: [
       { time: "~8:00",  text: "<strong>Ontbijt</strong> :)" },
       { time: "~10:00", text: "<strong>Hospital de San Pau</strong>" },
-      { time: "~12:00", text: "<strong>Metro</strong> — Zie 'transport' voor meer info" },
+      { time: "~12:00", text: "<strong>Metro</strong> — Naar Plaza Cataluña (zie 'transport' voor meer info" },
       { time: "~14:00", text: "<strong>Gotische wijk</strong> — Fotozoektocht, van Plaza Cataluña tot Plaza Reial" },
       { time: "~16:00", text: "<strong>Metro</strong> — Naar Plaza Espagña, vrije avondmaal" },
       { time: "~20:00", text: "<strong>Hotel</strong> — Terug naar het hotel" }
@@ -51,7 +51,7 @@ const days = [
       { time: "",           text: "<strong>Wandeling</strong> — Naar Casa Batlló en Casa Milà" },
       { time: "",           text: "<strong>Wandeling</strong> — Naar Plaza Cataluña" },
       { time: "~12:00",    text: "<strong>Vrije tijd</strong> — Doe wat je wilt en eet lunch" },
-      { time: "~15:00",    text: "<strong>Metro</strong> — Zie 'transport' voor meer info" },
+      { time: "~15:00",    text: "<strong>Metro</strong> — Naar Park Guëll (Zie 'transport' voor meer info)" },
       { time: "~16:00",    text: "<strong>Park Güell</strong> — Groep 1" },
       { time: "~16:30",    text: "<strong>Park Güell</strong> — Groep 2" },
       { time: "~17:30",    text: "<strong>Bus richting hotel</strong>" },
@@ -65,7 +65,7 @@ const days = [
     activities: [
       { time: "~8:00",  text: "<strong>Ontbijt</strong> :>" },
       { time: "~10:00", text: "<strong>Keuze-activiteit</strong> — Camp Nou, Escape game of alternatief programma" },
-      { time: "~12:00", text: "<strong>Metro</strong> — Zie 'transport' voor meer info" },
+      { time: "~12:00", text: "<strong>Metro</strong> — Naar Maremagnum (Zie 'transport' voor meer info)" },
       { time: "~13:00", text: "<strong>Lunch</strong>" },
       { time: "~14:30", text: "<strong>Bus</strong> — Pikt groep aan Passeig Joseph Carner, transfer naar Codorniu" },
       { time: "~15:45", text: "<strong>Codorníu</strong>" },
@@ -78,8 +78,9 @@ const days = [
     emoji: "🐸",
     date: "1 april",
     activities: [
-      { time: "~8:30",  text: "<strong>Vertrek naar Girona</strong> — Middagpauze in de buurt van Plaza de la Independencia" },
-      { time: "~14:00", text: "<strong>Wandeling</strong> — Langs stadsomwalling en joodse wijk" },
+      { time: "~8:30",  text: "<strong>Vertrek naar Girona</strong> — Stadsbezoek Middagpauze in de buurt van Plaza de la Independencia" },
+      { time: "",  text: "<strong></strong> — Middagpauze in de buurt van Plaza de la Independencia" },
+      { time: "~14:00", text: "<strong>Wandeling</strong> — stadsomwalling en joodse wijk" },
       { time: "~16:30", text: "<strong>Hotel</strong> — Terug naar het hotel" },
       { time: "~19:30", text: "<strong>Avondmaal</strong> — Eten" }
     ]
@@ -91,7 +92,7 @@ const days = [
     activities: [
       { time: "~8:45",  text: "<strong>Ontbijt</strong> =)" },
       { time: "",       text: "<strong>Check-out</strong> — Bagage verzamelen in bagageruimte" },
-      { time: "~10:00", text: "<strong>Trein</strong> — Zie transport" },
+      { time: "~10:00", text: "<strong>Metro</strong> — Naar Catalunya (Zie 'transport')" },
       { time: "~13:00", text: "<strong>Lunch</strong> — Vrije tijd" },
       { time: "~16:30", text: "<strong>Trein</strong> — Door de klant geregeld (whatever the heck dit betekent)" },
       { time: "~19:30", text: "<strong>Avondmaal</strong> — In het hotel" },
