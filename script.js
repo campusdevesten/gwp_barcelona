@@ -67,7 +67,7 @@ const days = [
       { time: "~10:00", text: "<strong>Keuze-activiteit</strong> — Camp Nou, Escape game of alternatief programma" },
       { time: "~12:00", text: "<strong>Metro</strong> — Naar Maremagnum (Zie 'transport' voor meer info)" },
       { time: "~13:00", text: "<strong>Lunch</strong>" },
-      { time: "~14:30", text: "<strong>Bus</strong> — Pikt groep aan Passeig Joseph Carner, transfer naar Codorniu" },
+      { time: "~14:30", text: "<strong>Bus</strong> — Pikt groep aan Passeig Josep Carner, transfer naar Codorniu" },
       { time: "~15:45", text: "<strong>Codorníu</strong>" },
       { time: "~17:00", text: "<strong>Hotel</strong> — Terug naar het hotel" },
       { time: "~19:30", text: "<strong>Avondmaal</strong> — Eten" }
@@ -92,7 +92,7 @@ const days = [
     activities: [
       { time: "~8:45",  text: "<strong>Ontbijt</strong> =)" },
       { time: "",       text: "<strong>Check-out</strong> — Bagage verzamelen in bagageruimte" },
-      { time: "~10:00", text: "<strong>Metro</strong> — Naar Catalunya (Zie 'transport')" },
+      { time: "~10:00", text: "<strong>Metro</strong> — Naar Cataluña (Zie 'transport')" },
       { time: "~13:00", text: "<strong>Lunch</strong> — Vrije tijd" },
       { time: "~16:30", text: "<strong>Trein</strong> — Door de klant geregeld (whatever the heck dit betekent)" },
       { time: "~19:30", text: "<strong>Avondmaal</strong> — In het hotel" },
