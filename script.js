@@ -305,6 +305,69 @@ const contacts = [
     emoji: "🏨",
     phone: "+34 93 767 80 60",
     note: "Carrer del Pla de la Torre 24, Santa Susanna"
+  },
+  {
+    name: "Mevrouw Boffin",
+    role: "Leerkracht",
+    emoji: "👨‍🏫",
+    phone: "0474 78 00 26",
+    note: ""
+  },
+  {
+    name: "Mevrouw Boogaerts",
+    role: "Leerkracht",
+    emoji: "👨‍🏫",
+    phone: " 0497 32 50 75",
+    note: ""
+  },
+  {
+    name: "Mevrouw Van der Velde",
+    role: "Leerkracht",
+    emoji: "👨‍🏫",
+    phone: "0478 82 24 67",
+    note: ""
+  },
+  {
+    name: "Mevrouw Van Genechten",
+    role: "Leerkracht",
+    emoji: "👨‍🏫",
+    phone: "0495 22 29 82",
+    note: ""
+  },
+  {
+    name: "Mevrouw Van Loy",
+    role: "Leerkracht",
+    emoji: "👨‍🏫",
+    phone: "0479 68 53 70",
+    note: ""
+  },
+ {
+    name: "Mevrouw Van Tendeloo",
+    role: "Leerkracht",
+    emoji: "👨‍🏫",
+    phone: "0479 93 32 66",
+    note: ""
+  },
+  {
+    name: "Mevrouw De Ryck",
+    role: "Leerkracht",
+    emoji: "👨‍🏫",
+    phone: "0468 20 68 91",
+    note: ""
+  },
+  {
+    name: "Meneer Mondelaars",
+    role: "Leerkracht",
+    emoji: "👨‍🏫",
+    phone: "0496 28 19 03",
+    note: ""
+  },
+  {
+    name: "Meneer Houtmeyers",
+    role: "Leerkracht",
+    emoji: "👨‍🏫",
+    phone: "0473 40 58 11",
+    note: ""
   }
 ];
 
